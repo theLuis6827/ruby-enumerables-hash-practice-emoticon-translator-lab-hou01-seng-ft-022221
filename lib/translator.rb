@@ -12,11 +12,13 @@ def load_library(file)
     language_key[key][:english] = value[0]
     
     language_key[key][:japanese] = value[1]
+  
   #Turns yaml to hash of hashes  
   end
   language_key
 end
 
 def get_english_meaning
+  
   # code goes here
 end
