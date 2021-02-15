@@ -34,5 +34,5 @@ def get_japanese_emoticon(file, english_emoji)
   library[key][:english] == emoji
   end
   
-english_emoji ? library[key][:japanese] : "Sorry, that emoticon was not found"
+english_emoji ? library[english_emoji][:japanese] : "Sorry, that emoticon was not found"
 end
