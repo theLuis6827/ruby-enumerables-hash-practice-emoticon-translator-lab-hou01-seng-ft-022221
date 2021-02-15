@@ -18,7 +18,10 @@ def load_library(file)
   language_key
 end
 
-def get_english_meaning
+def get_english_meaning(japanese_emoji)
+  library = load_library(file)
+  
+  english_name = library.key
   
   # code goes here
 end
