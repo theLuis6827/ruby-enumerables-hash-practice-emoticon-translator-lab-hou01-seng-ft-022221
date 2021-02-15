@@ -1,4 +1,4 @@
-require 'yaml'
+require 'emoticon.yml'
 
 def load_library
 
