@@ -2,6 +2,8 @@ require 'yaml'
 
 def load_library(file)
   emoticons_library = YAML.load_file(file)
+  language_key = {}
+  
 
 end
 
