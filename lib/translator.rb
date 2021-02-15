@@ -29,5 +29,5 @@ def get_english_meaning(japanese_emoji)
   #look the librar for the japanese emoticon 
   #key to the value of japanese emoticon bind it to english name
   
-english_name
+english_name ?
 end
