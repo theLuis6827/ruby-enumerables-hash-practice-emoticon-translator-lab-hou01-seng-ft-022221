@@ -21,7 +21,13 @@ end
 def get_english_meaning(japanese_emoji)
   library = load_library(file)
   
-  english_name = library.key
+  english_name = library.keys.find do |e_title|
+    library[e_title][:english] == japanese_emoji
+  end
   
-  # code goes here
+  
+  #look the librar for the japanese emoticon 
+  #key to the value of japanese emoticon bind it to english name
+  
+english_name
 end
