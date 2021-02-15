@@ -7,15 +7,14 @@ def load_library(file)
   #initializes a has to store the formatted the library information
   emoticons_library.each do |key, value|
     #iterates a hash to store the formatted library information.
-    hash_library[key] = {}
+    language_key[key] = {}
     #make the first element, the title of the emoji a new hash.
-    hash_library[key][:english] = value[0]
+    language_key[key][:english] = value[0]
     
-    hash_library[key][:japanese] = value[1]
+    language_key[key][:japanese] = value[1]
   #Turns yaml to hash of hashes  
   end
-  
-
+  language_key
 end
 
 def get_english_meaning
